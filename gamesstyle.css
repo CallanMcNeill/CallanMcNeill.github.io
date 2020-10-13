@@ -1,0 +1,638 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    font-family: "Segoe Script";
+}
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI';
+    background-color: #315C1C;
+}
+
+@media only screen and (min-width: 1080px) {
+/* Top bar */ 
+.topbar > #background {
+    width: 100%;
+    margin-top: -300px;
+    z-index: -1;
+    position: relative;
+}
+.topbar > #logo {
+    z-index: 2;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+ul {
+    margin-top: -200px;
+    text-align: right;
+    padding-right: 1%;
+    z-index: 3;
+}  
+.button {
+    display: inline-block;
+    padding: 15px 0px;
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #315C1C;
+    border: none;
+    border-radius: 15px;
+}
+.button a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+.button:hover {
+    background-color: #315C1C;
+    box-shadow: 0 9px rgb(31, 58, 18);
+    transform: translateY(-9px);
+}
+.button:active {
+  background-color: #315C1C;
+  box-shadow: 0 5px rgb(31, 58, 18);
+  transform: translateY(-5px);
+
+}
+
+/* Main Content */
+    /* Content Title */
+    .contenttitle {
+        margin-top: 100px;
+        font-size: 4em;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    /* Superhot Flip */
+    .super1 {
+        z-index: -4;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .superimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .super1:hover > .superimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .superchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -300px;
+    }
+    .super1:hover > .superchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #superpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    /* DND Flip */
+    .dnd1 {
+        z-index: -3;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .dndimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .dnd1:hover > .dndimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .dndchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -300px;
+    }
+    .dnd1:hover > .dndchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #dndpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    /* Pandemic Flip */
+    .pan1 {
+        z-index: -4;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .panimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .pan1:hover > .panimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .panchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -300px;
+    }
+    .pan1:hover > .panchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #panpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    /* Munchkin Flip */
+    .mun1 {
+        z-index: -3;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    .munimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .mun1:hover > .munimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .munchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -300px;
+    }
+    .mun1:hover > .munchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #munpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    /* Guillotine Flip */
+    .guill1 {
+        z-index: -3;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .guillimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .guill1:hover > .guillimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .guillchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -300px;
+    }
+    .guill1:hover > .guillchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #guillpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    /* Raw Data Flip */
+    .raw1 {
+        z-index: -4;
+        display: inline-block;
+        cursor: help;
+        width: 350px;
+        height: 350px;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    .rawimg {
+        transition-duration: 0.5s;
+        width: 350px;
+        height: 350px;
+    }
+    .raw1:hover > .rawimg {
+        transform: rotateY(180deg);
+        filter: brightness(0%);
+    }
+    .rawchat {
+        transform: rotateY(180deg);
+        text-align: center;
+        transition-duration: 0.5s;
+        opacity: 0;
+        color: #315C1C;
+        margin-top: -250px;
+    }
+    .raw1:hover > .rawchat {
+        opacity: 100;
+        transform: rotateY(360deg);
+    }
+    #rawpara {
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    /* Subtext */
+    .subcontent {
+        text-align: center;
+        margin: 0px 20%;
+    }
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 4rem;
+    font-size: 1.5em;
+    color: #315C1C;
+    position: absolute;
+    width: 100%;
+}   
+}
+@media only screen and (max-width: 1080px) {
+/* Top bar */ 
+.topbar > #background {
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1;
+    position: relative;
+}
+.topbar > #logo {
+    z-index: 2;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+ul {
+    margin-top: -200px;
+    text-align: right;
+    padding-right: 1%;
+    z-index: 3;
+    margin-left: -100px;
+}  
+.button {
+
+    padding: 15px 0px;
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #315C1C;
+    border: none;
+    border-radius: 15px;
+}
+.button a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+.button:hover {
+    background-color: #315C1C;
+    box-shadow: 0 9px rgb(31, 58, 18);
+    transform: translateY(-9px);
+}
+.button:active {
+  background-color: #315C1C;
+  box-shadow: 0 5px rgb(31, 58, 18);
+  transform: translateY(-5px);
+
+}
+    
+    /* Main Content */
+        /* Content Title */
+        .contenttitle {
+            margin-top: 100px;
+            font-size: 4em;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        /* Superhot Flip */
+        .super1 {
+            z-index: -4;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin: auto;
+            margin-bottom: 5%;
+
+        }
+        .superimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .super1:hover > .superimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .superchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            color: #315C1C;
+            font-size: 2.5em;
+            margin-top: -16em;
+        }
+        .super1:hover > .superchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #superpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+        
+        /* DND Flip */
+        .dnd1 {
+            z-index: -3;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin-top: 10%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        .dndimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .dnd1:hover > .dndimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .dndchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            font-size: 2.5em;
+            color: #315C1C;
+            margin-top: -16em;
+        }
+        .dnd1:hover > .dndchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #dndpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+    
+        /* Pandemic Flip */
+        .pan1 {
+            z-index: -3;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin-top: 10%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        .panimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .pan1:hover > .panimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .panchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            font-size: 2.5em;
+            color: #315C1C;
+            margin-top: -16em;
+        }
+        .pan1:hover > .panchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #panpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+    
+        /* Munchkin Flip */
+        .mun1 {
+            z-index: -3;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin-top: 10%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        .munimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .mun1:hover > .munimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .munchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            font-size: 2.5em;
+            color: #315C1C;
+            margin-top: -16em;
+        }
+        .mun1:hover > .munchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #munpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+        
+        /* Guillotine Flip */
+        .guill1 {
+            z-index: -3;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin-top: 10%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        .guillimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .guill1:hover > .guillimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .guillchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            font-size: 2.5em;
+            color: #315C1C;
+            margin-top: -16em;
+        }
+        .guill1:hover > .guillchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #guillpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+        
+        /* Raw Data Flip */
+        .raw1 {
+            z-index: -3;
+            display: block;
+            padding: 0px;
+            cursor: help;
+            width: 45em;
+            height: 45em;
+            margin-top: 10%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        .rawimg {
+            transition-duration: 0.5s;
+            width: 45em;
+            height: 45em;
+        }
+        .raw1:hover > .rawimg {
+            transform: rotateY(180deg);
+            filter: brightness(0%);
+        }
+        .rawchat {
+            transform: rotateY(180deg);
+            text-align: center;
+            transition-duration: 0.5s;
+            opacity: 0;
+            font-size: 2.5em;
+            color: #315C1C;
+            margin-top: -16em;
+        }
+        .raw1:hover > .rawchat {
+            opacity: 100;
+            transform: rotateY(360deg);
+        }
+        #rawpara {
+            margin-top: 0px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: center;
+        }
+        
+        /* Subtext */
+        .subcontent {
+            text-align: center;
+            margin: 2.5% 10%;
+        }
+    footer {
+        text-align: center;
+        background-color: black;
+        height: 3rem;
+        font-size: 1.5em;
+        color: #315C1C;
+        position: absolute;
+        width: 100%;
+        padding-bottom: 1em;
+    }   
+}

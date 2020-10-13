@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI';
+    width: 100%;
+}
+
+@media only screen and (min-width: 1080px) { /* PC Mode */
+/* Top bar */ 
+  .topbar > #background { /* Topbar Background */
+    width: 100%;
+    margin-top: -300px;
+    z-index: 3;
+    position: relative;
+  }
+  .topbar > #logo { /* Topbar Logo */
+    z-index: 5;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+  }
+  ul { /* Button Alignment */
+    margin-top: -200px;
+    text-align: right;
+    padding-right: 1%;
+    z-index: 5;
+  }
+/* Buttons */  
+  .button { /* Button Style */
+    padding: 15px 0px;
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #315C1C;
+    border: none;
+    border-radius: 15px;
+    z-index: 5;
+    position: relative;
+  }
+  .button a { /* Button response box */
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+  }
+  .button:hover { /* Button hover response */
+    background-color: #315C1C;
+    box-shadow: 0 9px rgb(31, 58, 18);
+    transform: translateY(-9px);
+  }
+  .button:active { /* Button on activate */
+    background-color: #315C1C;
+    box-shadow: 0 5px rgb(31, 58, 18);
+    transform: translateY(-5px);
+  }
+/* Main Content */
+    .maintitle { /* Content Title */
+        font-size: 5em;
+        text-align: center;
+        color: black;
+        font-family: 'Segoe Script';
+    }
+    .qukdescttl {
+        font-size: 3em;
+        text-align: center;
+        color: black;
+        font-family: 'Segoe Script';
+        margin-bottom: -40px;
+
+    }
+    .qukdesc {
+        font-size: 2em;
+        text-align: center;
+        color: black;
+        font-family: 'Segoe UI';
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .whojnttl {
+        font-size: 3em;
+        text-align: center;
+        color: black;
+        font-family: 'Segoe Script';  
+        margin-bottom: -40px;
+    }
+    .whojntxt {
+        font-size: 2em;
+        text-align: center;
+        color: black;
+        font-family: 'Segoe UI'; 
+        margin-bottom: 10%; 
+        margin-left: 5%;
+        margin-right: 5%; 
+    }
+    .whrettl {
+      font-size: 3em;
+      text-align: center;
+      color: black;
+      font-family: 'Segoe Script';  
+      margin-bottom: -40px;
+  }
+  .whretxt {
+      font-size: 2em;
+      text-align: center;
+      color: black;
+      font-family: 'Segoe UI'; 
+      margin-bottom: 10%; 
+      margin-left: 5%;
+      margin-right: 5%; 
+  }
+/* Background */
+  .backgroundmain {
+    background-color: #315C1C;
+    height: calc(100% - 4rem);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+    border-radius: 0px;
+  }
+  
+/* Content Scaling */
+  #page-container { /* Content Container */
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap { /* Content Wrap */
+    padding-bottom: 2.5rem;
+  }
+  #footer { /* Footer Style */
+    text-align: center;
+    padding-top: 1rem;
+    background-color: black;
+    height: 3rem;
+    font-size: 1.5em;
+    color: #315C1C;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+  }  
+}
+
+@media only screen and (max-width: 1080px) { /* Mobile Style */
+/* Top bar */ 
+  .topbar > #background { /* Topbar Background */
+    width: 100%;
+    margin-top: -200px;
+    z-index: -1;
+    position: relative;
+  }
+  .topbar > #logo { /* Topbar Logo */
+    z-index: 2;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+  }
+  ul { /* Button Alignment */
+    margin-top: -200px;
+    text-align: right;
+    padding-right: 1%;
+    z-index: 3;
+    margin-left: -100px;
+  }  
+  .button { /* Button Style */
+    padding: 15px 0px;
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #315C1C;
+    border: none;
+    border-radius: 15px;
+  }
+  .button a { /* Button Activate Location */
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+  }
+  .button:hover { /* Button hover reaction */
+    background-color: #315C1C;
+    box-shadow: 0 9px rgb(31, 58, 18);
+    transform: translateY(-9px);
+  }
+  .button:active { /* Button Activation Style */
+    background-color: #315C1C;
+    box-shadow: 0 5px rgb(31, 58, 18);
+    transform: translateY(-5px);
+  }
+/* Main Content */
+.maintitle { /* Content Title */
+  font-size: 7em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe Script';
+  margin-top: 8%;
+}
+.qukdescttl {
+  font-size: 4em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe Script';
+  margin-bottom: -40px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.qukdesc {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI';
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.whojnttl {
+  font-size: 4em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe Script';
+  margin-bottom: -40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.whojntxt {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI';
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.whrettl {
+  font-size: 4em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe Script';
+  margin-bottom: -40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.whretxt {
+  font-size: 2em;
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI';
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Background style */
+  .backgroundmain {
+    background-color: #315C1C;
+    height: calc(100% - 4rem);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+  }
+/* Page Content */
+  #page-container { /* Content Container */
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap { /* Content Sizing */
+    padding-bottom: 2.5rem;
+  }
+  #footer { /* Footer Style */
+    text-align: center;
+    background-color: black;
+    height: 4rem;
+    font-size: 2.5em;
+    color: #315C1C;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+  }  
+}
