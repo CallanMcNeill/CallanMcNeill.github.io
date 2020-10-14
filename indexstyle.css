@@ -213,7 +213,7 @@ body {
     }
     
 /* Main Paralax */ 
-    .paralax > #background { /* Static background */
+    .paralax > #scrollbackground { /* Static background */
         z-index: -5;
         width: 100%;
         position: relative;
