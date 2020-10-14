@@ -162,6 +162,11 @@ body {
 }
 
 @media only screen and (max-width: 1080px) { /* Mobile Mode */
+   body {
+    margin: 0px;
+    font-family: 'Segoe UI';
+    background-color: black;
+} 
 /* Top bar */ 
     .topbar > #background { /* Topbar Background */
         width: 100%;
