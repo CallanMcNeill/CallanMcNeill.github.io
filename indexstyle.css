@@ -100,7 +100,7 @@ body {
     .main { /* Main background */
         z-index: 2;
         background-repeat: no-repeat;
-        background-image: url('../images/Lowerback.png');
+        background-image: url('../Lowerback.png');
         background-attachment: scroll;
         position: relative;
         background-size: 100%;
@@ -249,7 +249,7 @@ body {
     .main {
         z-index: 2;
         background-repeat: no-repeat;
-        background-image: url('../images/Lowerback.png');
+        background-image: url('../Lowerback.png');
         background-attachment: scroll;
         position: relative;
         background-size: 105%;
