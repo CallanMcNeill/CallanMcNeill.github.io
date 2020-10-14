@@ -9,7 +9,7 @@ body {
 
 @media only screen and (min-width: 1080px) { /* PC Mode */
 /* Topbar */ 
-    .topbar > #topbarbackground { /* Topbar Background */
+    .topbar > #background { /* Topbar Background */
         width: 100%;
         margin-top: -300px;
         z-index: -1;
@@ -163,7 +163,7 @@ body {
 
 @media only screen and (max-width: 1080px) { /* Mobile Mode */
 /* Top bar */ 
-    .topbar > #topbarbackground { /* Topbar Background */
+    .topbar > #background { /* Topbar Background */
         width: 100%;
         margin-top: -200px;
         z-index: -1;
@@ -218,6 +218,7 @@ body {
         width: 100%;
         position: relative;
         margin-bottom: 0px;
+        
     }
     .paralax { /* Background Styling */
         z-index: -6;
