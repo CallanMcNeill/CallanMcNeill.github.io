@@ -58,7 +58,7 @@ body {
     }
 
 /* Main Paralax */ 
-    .paralax > #background { /* Paralax background with cutout */
+    .paralax > #scrollbackground { /* Paralax background with cutout */
         z-index: -5;
         width: 100%;
         position: relative;
