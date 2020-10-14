@@ -71,7 +71,7 @@ body {
         background-image: url('../Superhot.jpg');
         background-attachment: fixed;
         position: relative;
-        background-size: 100%;
+        background-size: 40%;
         background-position-x: 5%;
         background-color:  #315C1C;
         Height: 660px;
@@ -104,7 +104,7 @@ body {
         background-attachment: scroll;
         position: relative;
         background-size: 100%;
-        Height: 400px;
+        Height: 300px;
         margin-bottom: -300px;
         margin-top: -540px;
     }
